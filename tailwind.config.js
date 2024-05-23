@@ -7,7 +7,11 @@ export default {
     fontFamily: {
       sans: ['Plus Jakarta Sans', ...defaultTheme.fontFamily.sans],
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#762beb',
+      },
+    },
   },
   plugins: [require('tailwindcss-animate')],
 }
